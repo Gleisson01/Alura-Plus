@@ -170,3 +170,46 @@ body{
     background-color: var(--botao-azul-efeito);
     color: var(--cor-fundo);
 }
+
+@media screen and (max-width: 768px){
+
+    .container{
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+
+    .principal{
+        background-image: none;
+    }
+
+    .container__caixa{
+        margin: 2em;
+    }
+
+    .container__imagem{
+        width: 80%;
+        max-width: 350px;
+    }
+
+    .secundario{
+        margin: 2em;
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width: 80%;
+    }
+
+    .dispositivos__lista{
+        display: block;
+    }
+
+    .rodape__lista{
+        display: block;
+    }
+
+    .lista__link{
+        margin: 1em 0;
+    }
+}
